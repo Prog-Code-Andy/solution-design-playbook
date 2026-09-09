@@ -1,0 +1,34 @@
+schema_version: 1
+scopes:
+  - scope_id: MAIN
+    title: Enterprise Control Platform
+    type: main
+    parent_scope: null
+    status: baseline_approved
+  - scope_id: ENTRA-ID
+    title: Microsoft Entra ID Integration
+    type: integration
+    parent_scope: MAIN
+    status: discovery_in_progress
+  - scope_id: OCTOPUS
+    title: Octopus Deploy Integration
+    type: integration
+    parent_scope: MAIN
+    status: registered
+  - scope_id: SCANNING
+    title: Ansible Server Scanning
+    type: component
+    parent_scope: MAIN
+    status: registered
+  - scope_id: OCP-PLATFORM
+    title: OpenShift Runtime
+    type: platform
+    parent_scope: MAIN
+    status: registered
+  - scope_id: REPORTING
+    title: Evidence and Reporting
+    type: capability
+    parent_scope: MAIN
+    status: registered
+proposed_scopes: []
+

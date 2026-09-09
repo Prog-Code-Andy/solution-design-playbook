@@ -1,0 +1,17 @@
+schema_version: 1
+project:
+  project_id: DOC-PORTAL
+  title: Internal Documentation Portal
+  mode: single-scope
+paths:
+  playbook_root: solution-design-playbook
+  output_root: docs/project-design
+documentation:
+  canonical_format: markdown
+  canonical_location: local_repository
+  publication_targets:
+    - confluence
+requirements:
+  identifiers: source_defined
+  default_generated_prefix: LOCAL-REQ
+

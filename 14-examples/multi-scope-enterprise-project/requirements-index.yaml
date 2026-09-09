@@ -1,0 +1,20 @@
+schema_version: 1
+requirements:
+  - requirement_id: IAM-247
+    title: Collect Entra ID identities
+    source_id: SOURCE-001
+    source_reference: section-4.2
+    status: analyzed
+    scopes:
+      - ENTRA-ID
+  - requirement_id: AUDIT-052
+    title: Produce consolidated compliance evidence
+    source_id: SOURCE-001
+    source_reference: section-9
+    status: analyzed
+    scopes:
+      - ENTRA-ID
+      - OCTOPUS
+      - SCANNING
+      - REPORTING
+
