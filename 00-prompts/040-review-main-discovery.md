@@ -6,5 +6,5 @@
 4. If ready, summarize the artifact and request a new, exact `Approve Discovery MAIN v1.0` message.
 5. Only after that message, record Approved status, version, approver, and timestamp in Markdown/YAML.
 
-Expected stop: approved Main Discovery or explicit revision work; no automatic scope decomposition approval.
+Expected stop: approved Main Discovery or explicit revision work. After approval, the legal next action is prompt 045; no requirements-baseline or scope-decomposition approval is automatic.
 

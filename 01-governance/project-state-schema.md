@@ -13,3 +13,4 @@ The model maintains these files after explicit user decisions. Full requirements
 
 Before any transition, validate required keys, unique IDs, referenced paths, legal status transitions, active-scope existence, pending gate, and consistency between YAML and Markdown.
 
+`implementation_allowed` governs non-document project implementation. Planning-document writes are controlled separately by `planning_artifact_writes_allowed` and `allowed_write_roots`. A tool's generic “Implement” button never changes either authorization by itself.

@@ -76,5 +76,4 @@ project-root/
 
 ## Status
 
-Version 0.1.0. The playbook is usable as a reviewed starter kit after its example dry runs and structural validation pass.
-
+Version 0.1.1. The playbook includes explicit Windsurf Plan-to-files and Requirements Baseline review gates.

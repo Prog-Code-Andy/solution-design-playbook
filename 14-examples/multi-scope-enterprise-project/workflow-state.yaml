@@ -5,6 +5,9 @@ active_artifact: DISC-ENTRA-001
 authorization:
   mode: discussion_only
   implementation_allowed: false
+  planning_artifact_writes_allowed: false
+  allowed_write_roots:
+    - docs/project-design
 current_status: in_progress
 next_prompt: 070-scoped-discovery
 pending_gate:
@@ -14,4 +17,3 @@ last_transition:
   at: "2026-01-01T00:00:00Z"
   approved_by: example-user
   approval_phrase: Activate scope ENTRA-ID
-

@@ -1,6 +1,6 @@
 # Prompt 050 — Decompose Scopes
 
-Prerequisites: approved Main Discovery and sufficiently analyzed requirements.
+Prerequisites: approved Main Discovery and approved Requirements Baseline.
 
 1. Group work by cohesive responsibility, interface, owner, security boundary, data lifecycle, and delivery lifecycle.
 2. Do not create one scope per requirement automatically.
@@ -11,4 +11,3 @@ Prerequisites: approved Main Discovery and sufficiently analyzed requirements.
 7. Only after approval, update mode and move proposed scopes into the approved registry.
 
 Expected stop: approved scope structure; MAIN remains active until explicit scope activation.
-

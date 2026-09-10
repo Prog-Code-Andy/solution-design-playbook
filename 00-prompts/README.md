@@ -15,8 +15,10 @@ Each prompt must read governance, relevant templates, and current state; disting
 | 000 | Resolve paths and determine new/existing workflow |
 | 010 | Initialize project-design control files |
 | 020 | Register and inspect requirements sources |
+| 025 | Materialize an approved Windsurf 010/020 planning foundation |
 | 030 | Conduct Main Discovery |
 | 040 | Review Main Discovery |
+| 045 | Review and approve the Requirements Baseline |
 | 050 | Propose and approve scope decomposition |
 | 060 | Activate a registered scope |
 | 070 | Conduct scoped discovery |
@@ -32,4 +34,6 @@ Each prompt must read governance, relevant templates, and current state; disting
 | 170 | Review the complete execution package |
 | 180 | Review delivered work and evidence |
 | 190 | Classify and plan remediation |
+
+Prompts `025` and `045` are intentional inserted gates. Prompt 025 is a Windsurf Plan-to-files bridge and is skipped when prompt 020 already created and validated the artifacts. Prompt 045 closes the Requirements Baseline gate before scope decomposition.
 
