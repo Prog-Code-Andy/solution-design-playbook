@@ -1,0 +1,19 @@
+schema_version: 1
+active_scope: ENTRA-ID
+active_stage: scoped-discovery
+active_artifact: DISC-ENTRA-001
+authorization:
+  mode: discussion_only
+  implementation_allowed: false
+  planning_artifact_writes_allowed: false
+  allowed_write_roots:
+    - docs/project-design
+current_status: in_progress
+next_prompt: 070-scoped-discovery
+pending_gate:
+  type: discovery_approval
+  approval_phrase: Approve Discovery ENTRA-ID v1.0
+last_transition:
+  at: "2026-01-01T00:00:00Z"
+  approved_by: example-user
+  approval_phrase: Activate scope ENTRA-ID

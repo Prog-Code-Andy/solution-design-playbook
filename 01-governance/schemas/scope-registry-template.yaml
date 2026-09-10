@@ -1,0 +1,9 @@
+schema_version: 1
+scopes:
+  - scope_id: MAIN
+    title: Project title
+    type: main
+    parent_scope: null
+    status: discovery_in_progress
+proposed_scopes: []
+

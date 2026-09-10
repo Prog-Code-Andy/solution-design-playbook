@@ -1,0 +1,17 @@
+schema_version: 1
+active_scope: MAIN
+active_stage: discovery
+active_artifact: null
+authorization:
+  mode: discussion_only
+  implementation_allowed: false
+  planning_artifact_writes_allowed: false
+  allowed_write_roots:
+    - docs/project-design
+current_status: in_progress
+next_prompt: 030-main-discovery
+pending_gate: null
+last_transition:
+  at: null
+  approved_by: null
+  approval_phrase: null

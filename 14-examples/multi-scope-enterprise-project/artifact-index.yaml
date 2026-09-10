@@ -1,0 +1,27 @@
+schema_version: 1
+artifacts:
+  - artifact_id: DISC-MAIN-001
+    type: discovery
+    scope_id: MAIN
+    status: approved
+    version: 1.0
+    path: 02-discovery/main/DISC-MAIN-001.md
+  - artifact_id: SDD-MAIN-001
+    type: solution_design
+    scope_id: MAIN
+    status: baseline_approved
+    version: 0.1
+    path: 06-design/main/SDD-MAIN-001.md
+  - artifact_id: DISC-ENTRA-001
+    type: discovery
+    scope_id: ENTRA-ID
+    status: draft
+    version: 0.1
+    path: 02-discovery/scopes/entra-id/DISC-ENTRA-001.md
+  - artifact_id: TDD-ENTRA-001
+    type: technical_design
+    scope_id: ENTRA-ID
+    status: not_started
+    version: 0.1
+    path: 06-design/scopes/entra-id/TDD-ENTRA-001.md
+
