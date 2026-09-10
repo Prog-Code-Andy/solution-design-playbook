@@ -22,3 +22,5 @@ Windsurf's `Implement` action is a tool transition from Plan Mode to Code Mode; 
 5. Confirm `implementation_allowed: false`, record the next prompt, stop, and return to Plan Mode.
 
 Do not place all numbered prompts into one Windsurf plan. Prompts 060–120 form a repeatable per-scope loop; prompt 180 is post-delivery, and prompt 190 is conditional remediation.
+
+If Windsurf produced Main Discovery without stopping for user question rounds, run prompt 035 before prompt 040. Do not approve or build later artifacts from an AI-only discovery draft.

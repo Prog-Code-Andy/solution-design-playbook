@@ -3,6 +3,7 @@
 ## 0.1.1 — Windsurf planning gates
 
 - Added prompt 025 to materialize an approved 010/020 Windsurf plan without authorizing project implementation.
+- Added prompt 035 to recover interactive Main Discovery when a model generated the draft without user discussion.
 - Added prompt 045 to review and approve the Requirements Baseline before scope decomposition.
 - Separated planning-artifact write authorization from project implementation authorization.
 - Documented the one-gate-at-a-time Windsurf Plan-to-files cycle.

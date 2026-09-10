@@ -9,3 +9,4 @@
 
 Expected stop: review-ready Main Discovery; no architecture decision or implementation is implied.
 
+If Main Discovery was generated without the required user question rounds, do not proceed directly to formal review or approval. Set `next_prompt: 035-recover-interactive-main-discovery` and use the recovery prompt.
